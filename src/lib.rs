@@ -55,7 +55,7 @@
 
 #![no_std]
 
-#[cfg(test)]
+// ANDROID: Always import std to enable building as a dylib
 #[macro_use]
 extern crate std;
 

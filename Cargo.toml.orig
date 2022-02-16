@@ -1,10 +1,9 @@
 [package]
 
 name = "unicode-segmentation"
-version = "1.8.0"
+version = "1.7.1"
 authors = ["kwantam <kwantam@gmail.com>", "Manish Goregaokar <manishsmail@gmail.com>"]
 
-edition = "2018"
 homepage = "https://github.com/unicode-rs/unicode-segmentation"
 repository = "https://github.com/unicode-rs/unicode-segmentation"
 documentation = "https://unicode-rs.github.io/unicode-segmentation"
@@ -24,16 +23,8 @@ no_std = [] # This is a no-op, preserved for backward compatibility only.
 
 [dev-dependencies]
 quickcheck = "0.7"
-criterion = "0.3"
+bencher = "0.1"
 
 [[bench]]
 name = "graphemes"
-harness = false
-
-[[bench]]
-name = "unicode_words"
-harness = false
-
-[[bench]]
-name = "word_bounds"
 harness = false

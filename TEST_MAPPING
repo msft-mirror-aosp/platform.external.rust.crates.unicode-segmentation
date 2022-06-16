@@ -11,11 +11,6 @@
       "path": "external/rust/crates/heck"
     }
   ],
-  "postsubmit": [
-    {
-      "name": "authfs_device_test_src_lib"
-    }
-  ],
   "presubmit": [
     {
       "name": "authfs_device_test_src_lib"
